@@ -16,7 +16,7 @@ const io = connectToSocket(server);
 
 app.set("port", (process.env.PORT || 8000))
 app.use(cors({
-    origin: "http://localhost:3002", 
+    origin: "https://poptalk-frontend1.onrender.com", 
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type','Authorization'],
     credentials: true
