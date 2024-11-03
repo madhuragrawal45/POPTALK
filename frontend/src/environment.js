@@ -1,5 +1,5 @@
 
-const server = "http://localhost:8000";
+const server = "https://poptalk-backend.onrender.com";
 
 
 export default server;
